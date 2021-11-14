@@ -99,6 +99,10 @@ input[type="text"], textarea {
 .nav-link{
     transition: all 0.3s;
 }
+.navbar-toggler-icon{
+    color: var(--link-clr);
+    background-color: var(--link-secondary-clr);
+}
 
 .card{
     transition: transform .3s;
