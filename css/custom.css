@@ -101,7 +101,9 @@ input[type="text"], textarea {
 }
 .navbar-toggler-icon{
     color: var(--link-clr);
-    background-color: var(--link-secondary-clr);
+}
+.navbar-toggler-icon:focus{
+    border-color: var(--link-clr);
 }
 
 .card{
