@@ -87,7 +87,7 @@ input[type="text"], textarea {
     margin-right: 4px;
 }
 .intro{
-    background: url('img/Pizza.jpg') 100%/cover no-repeat fixed;
+    background: url(../img/Pizza.jpg) 100%/cover fixed;
 }
 .intro__inner{
     width: 60%;
