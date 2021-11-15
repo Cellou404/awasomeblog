@@ -242,6 +242,16 @@ input[type="text"], textarea {
     align-items: center;
     padding: 20px;
 }
+/* Delete Post */
+.delete__post .card{
+    max-width: 500px;
+    margin: 100px auto;
+    padding: 20px;
+    transform: none;
+}
+.delete__post .card a{
+  transition: all .3s ease-in-out;
+}
 /* Go to To button */
 #toTopBtn {
     display: none;
@@ -261,4 +271,16 @@ input[type="text"], textarea {
 
   #toTopBtn:hover {
     background-color: var(--link-secondary-clr)
+  }
+  /* Forms ==Login & Register== */
+  form label{
+      font-family: 'Patrick Hand';
+      color: var(--link-clr);
+  }
+  .login__register a {transition: all .3s ease-in-out;}
+  .login__register a:first-child{
+    margin-right: .5rem;
+  }
+  .login__register__page{
+    background: url(../img/pa.jpg) 100%/fill fixed;
   }
