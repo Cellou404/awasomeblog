@@ -45,8 +45,8 @@
         </div>
         <div class="intro">
             <div class="intro__inner text-center text-white">
-                <h3 class="title">John Doe's Blog</h3>
-                <h6 class="sub-title pb-2">This is my blog as I should have</h6>
+                <h3 class="title text-white">John Doe's Blog</h3>
+                <h6 class="sub-title text-white pb-2">This is my blog as I should have</h6>
                 <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit ad aliquam nemo ea, eaque
                     animi! Illo eius possimus, dolorum cum beatae quis.</p>
             </div>
@@ -58,7 +58,8 @@
             <a class="navbar-brand text-uppercase" href="index.html">cctech</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
                 aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <!-- <span class="navbar-toggler-icon"></span> -->
+                <i class="fas fa-bars"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -92,7 +93,7 @@
 
                 <!-- Post header -->
                 <div class="post__header text-center mt-md-5">
-                    <H3>Something as title</H3>
+                    <H3 class="text-white">Something as title</H3>
                     <div class="d-block justify-content-between mb-1">
                         <span class="fw-bolder"><i class="fas fa-user"></i><small> John Doe / </small></span>
                         <span class="fw-bold"><i class="far fa-comment"></i><small> 10 comments / </small></span>
@@ -274,6 +275,9 @@
         </div>
     </div>
     <!-- End Main Contain -->
+    <button id="toTopBtn" title="Go to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
 
 
     <!-- Footer -->
@@ -292,6 +296,8 @@
     <!-- # Footer -->
 
     <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
 
 </body>
 
