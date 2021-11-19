@@ -70,7 +70,8 @@ a,
 }
 
 a:hover,
-.nav-link:hover {
+.nav-link:hover
+{
     color: var(--link-secondary-clr);
     font-size: 18px;
     transition: color all .3s;
@@ -141,7 +142,9 @@ textarea {
     transform: translateY(-5px);
     transition: all 0.3s ease;
 }
-
+.card .card-body span {
+    color: var(--bs-gray);
+}
 /* NEWS LETTER */
 .news__letter {
     width: 100%;
@@ -335,6 +338,14 @@ form label {
 .categories div span {
     color: var(--bs-gray);
 }
+.categories .category__items > div {
+    background-color: #eee;
+    padding: 6px 8px;
+}
+.categories .category__items> div:nth-child(odd) {
+    background-color: var(--bs-white);
+}
+
 
 .tag__list {
     display: grid;
@@ -344,7 +355,9 @@ form label {
 }
 
 .tag__list a {
-    border-radius: 2px;
+    border:1px solid gray;
+    border-radius: 8px;
+    padding: 0 4px;
     white-space: wrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -366,3 +379,35 @@ form label {
     padding-left: 0;
 }
 /* #Sidebar latest Post */
+
+/* Blog */
+
+/* pagination */
+.pagination-template li.page-item {
+    margin: 0 5px;
+}
+.pagination-template a.page-link {
+    width: 40px;
+    height: 40px;
+    line-height: 27px;
+    border-radius: 50% !important;
+    border: none;
+    color: var(--link-clr);
+    text-align: center;
+} 
+.pagination-template a.page-link:hover, .pagination-template a.page-link.active {
+    background: var(--link-clr);
+    color: var(--bs-white);
+}
+/* #pagination */
+
+/* #Blog */
+
+/* Category Post List */
+.ctl__category__name {
+    color: white;
+    background-color: var(--link-clr);
+    padding: 4px;
+    border-radius: 4px;
+}
+/* #Category Post List */
