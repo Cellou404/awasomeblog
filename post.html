@@ -8,9 +8,8 @@
     <title>Awesome Bootstrap5 Blog Template</title>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
 
-    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous"> -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.0/css/all.css">
-    <script defer src="https://use.fontawesome.com/releases/v5.15.0/js/all.js"></script>
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <script defer src="fontawesome/js/pro.min.js"></script>
 
     <link rel="stylesheet" href="css/custom.css">
 
@@ -82,8 +81,8 @@
                     </a>
                     <ul class="dropdown-menu dropdown-menu-start dropdown-menu-lg-end" aria-labelledby="dropdownMenuButton1">
                         <li><a class="dropdown-item" href="#">Logout</a></li>
-                        <li><a class="dropdown-item" href="#">Login</a></li>
-                        <li><a class="dropdown-item" href="#">Register</a></li>
+                        <li><a class="dropdown-item" href="login.html">Login</a></li>
+                        <li><a class="dropdown-item" href="register.html">Register</a></li>
                         <li><a class="dropdown-item" href="#">Set Profile</a></li>
                     </ul>
                 </div>
@@ -116,7 +115,7 @@
                             <small>John Doe /</small>
                         </span>
                         <span class="fw-bold"><i class="far fa-comment"></i><small> 10 comments / </small></span>
-                        <span class="fw-bold"><i class="far fa-clock"></i><small> 13-11-2021</small></span>
+                        <span class="fw-bold"><i class="fal fa-clock"></i><small> 13-11-2021</small></span>
                     </div>
                 </div>
                 <!-- End Post header -->
@@ -276,12 +275,105 @@
                             <label for="exampleFormControlTextarea1" class="form-label">Your opinion</label>
                             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                           </div>
-                          <div class="btn btn-outline-success">Send</div>
+                          <div class="btn btn-outline-success">Send <i class="fad fa-paper-plane"></i></div>
                     </div>
                 </div>
                 <!-- #Leave Comment -->
+                <hr class="">
                 <!-- End Post Detail -->
+
+                <!-- ================= Related Posts ============ -->
+                <div class="related__posts my-5">
+                    <h3 class="text-center mb-3">Most Related Posts</h3>
+                    <hr class="mx-auto w-75">
+                    <!-- Related Posts List-->
+                    <div class="row justify-content-center m-lg-4 g-3">
+                        <!-- Blog post list content -->
+                        <div class="col-md-6 mb-3">
+                            <div class="card shadow rounded">
+                                <div class="card-image">
+                                    <img src="img/andrei-caliman-m_tgfIuMoyU-unsplash.jpg" alt="" class="img-fluid rounded-top">
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-block justify-content-between mb-1">
+                                        <span class="fw-bold">
+                                            <img src="img/1.jpg" alt="" class="img-fluid rounded-circle" width="25" height="25">
+                                            <small>John Doe /</small>
+                                        </span>
+                                        <span class="fw-bold"><i class="far fa-comment"></i><small> 10 comments / </small></span>
+                                        <span class="fw-bold"><i class="fal fa-clock"></i><small> 13-11-2021</small></span>
+                                    </div>
+                                    <p class="text-muted mb-0">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                 
+                                    <a href="">Read more <i class="fas fa-arrow-circle-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="card shadow rounded">
+                                <div class="card-image">
+                                    <img src="img/jason-briscoe-7MAjXGUmaPw-unsplash.jpg" alt="" class="img-fluid rounded-top">
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-block justify-content-between mb-1">
+                                        <span class="fw-bold">
+                                            <img src="img/2.jpg" alt="" class="img-fluid rounded-circle" width="25" height="25">
+                                            <small>John Doe /</small>
+                                        </span>
+                                        <span class="fw-bold"><i class="far fa-comment"></i><small> 10 comments / </small></span>
+                                        <span class="fw-bold"><i class="fal fa-clock"></i><small> 13-11-2021</small></span>
+                                    </div>
+                                    <p class="text-muted mb-0">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                
+                                    <a href="">Read more <i class="fas fa-arrow-circle-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="card shadow rounded">
+                                <div class="card-image">
+                                    <img src="img/0 pcK7z4ezXR6f08eX.jpg" alt="" class="img-fluid rounded-top">
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-block justify-content-between mb-1">
+                                        <span class="fw-bold">
+                                            <img src="img/moi.png" alt="" class="img-fluid rounded-circle" width="25" height="25">
+                                            <small>John Doe /</small>
+                                        </span>
+                                        <span class="fw-bold"><i class="far fa-comment"></i><small> 10 comments / </small></span>
+                                        <span class="fw-bold"><i class="fal fa-clock"></i><small> 13-11-2021</small></span>
+                                    </div>
+                                    <p class="text-muted mb-0">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                
+                                    <a href="">Read more <i class="fas fa-arrow-circle-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="card shadow rounded">
+                                <div class="card-image">
+                                    <img src="img/coffee-in-glass-cup.jpg" alt="" class="img-fluid rounded-top">
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-block justify-content-between mb-1">
+                                        <span class="fw-bold">
+                                            <img src="img/profile.png" alt="" class="img-fluid rounded-circle" width="25" height="25">
+                                            <small>John Doe /</small>
+                                        </span>
+                                        <span class="fw-bold"><i class="far fa-comment"></i><small> 10 comments / </small></span>
+                                        <span class="fw-bold"><i class="fal fa-clock"></i><small> 13-11-2021</small></span>
+                                    </div>
+                                    <p class="text-muted mb-0">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                
+                                    <a href="">Read more <i class="fas fa-arrow-circle-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- #Related posts list content -->
+                    </div>
+                
+                </div>
+                <!-- ================= #Related Posts ============ -->  
 
             </div>
             <!-- Sidebar -->

@@ -137,6 +137,7 @@ textarea {
 }
 .nav-item-dropdown{
     margin-inline-end: 70px;
+    transition: all 0.3s;
 }
 .nav-item-dropdown ul li a, .nav-item-dropdown ul li a:focus {
     background-color: inherit;
@@ -146,6 +147,7 @@ textarea {
 .nav-item-dropdown ul li a:hover{
     background-color: var(--link-clr);
     color: var(--bs-white);
+    transition: all 0.3s;
 }
 
 /* #Navbar */
