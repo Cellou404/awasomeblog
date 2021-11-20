@@ -429,3 +429,25 @@ form label {
     border-radius: 4px;
 }
 /* #Category Post List */
+
+/*   404 page */
+.page-not-found{
+    margin-top: 100px;
+    padding: 40px 10px;
+    width: 70%;
+    text-align: center;
+    border: 2px solid var(--link-clr);
+    border-radius: 20px;
+}
+.page-not-found .text-digit{
+    color: var(--bs-danger);
+    font: 600 78px "Patrick Hand";
+    margin-bottom: 20px;
+}
+@media screen and (max-width: 568px) {
+    .page-not-found{
+        margin-top: 100px;
+        width: 90%;
+    }
+}
+/*   #404 page */
