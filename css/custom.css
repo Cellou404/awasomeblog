@@ -150,6 +150,10 @@ textarea {
     transition: all 0.3s;
 }
 
+.navbar-toggler {
+    color: var(--link-clr);
+}
+
 /* #Navbar */
 
 .card {
